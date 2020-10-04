@@ -13,4 +13,4 @@ def ocr_project():
    return render_template('OCR_project.html')
 
 
-#app.run()
+#app.run(host='0.0.0.0', port=80)
