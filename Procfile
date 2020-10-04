@@ -1,1 +1,1 @@
-web: waitress-serve --port=80 portfolio:app
+web: gunicorn portfolio:app --preload 
